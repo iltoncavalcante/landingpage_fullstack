@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image: url("images/backgroundimg.png");
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabeçalho-titulo{
+    height: 58px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 22;
+}
+.cabeçalho-menu{
+    display: flex;
+    gap: 32px;
+}
+.cabeçalho-item{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 15;
+}
+.cabeçalho-logar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cabeçalho-logar-item{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 15;
+}
+.cabeçalho-logar-imagem{
+    width: 12%;
+    height: 12%;
+}
+.cabeçalho-menu-item-botao{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    color: #2F356D;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600; 
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+.corpo{
+    margin-bottom: 48px;
+}
+.corpo-seçao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.corpo-seçao-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.corpo-seçao-texto-titulo{
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 64px;
+}
+.corpo-seçao-texto-paragrafo{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+.corpo-seçao-texto-botao{
+    background-color: white;
+    width: 120px;
+    height: 40px;
+    color: #2F356D;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600; 
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+.corpo-seçao-imagem{
+    width: 40%;
+}

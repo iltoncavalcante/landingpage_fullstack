@@ -1,0 +1,14 @@
+Fontes
+
+Texto: <style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+</style> 
+
+(font-family: 'Open Sans', sans-serif;)
+
+Títulos:
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+</style>
+
+(font-family: 'Questrial', sans-serif;)

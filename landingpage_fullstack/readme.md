@@ -1,0 +1,1 @@
+My first landpage was a way I found to practice my English and learn a little bit about the front-end. This code is simple, but autentic code made by me.
